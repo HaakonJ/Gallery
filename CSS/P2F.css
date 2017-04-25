@@ -423,18 +423,59 @@ div.panel2.show {
 	height: 300px;
 }
 
+.art3
+{
+	margin: 5px 1%;
+	width: 98%;
+	height: 500px;
+}
+
+.ArtDesc
+{
+	margin-top: 20px;
+	display: flex;
+}
+
+.MAD
+{
+	flex:1 0 65%;
+}
+
+.OtherArt
+{
+	margin-top: 20px;
+	margin: 0 5px;
+	flex: 1 0 35%;
+}
+
 .ArtSlider
 {
+	height: 500px;
 	flex: 2 0 65%; 
-	margin:0px 1px; 
+	margin:0px 2px 0 0; 
 	overflow: hidden;
 }
 
 .RecentArt
 {
 	flex: 2 0 35%; 
-	margin:0 1px; 
+	margin:0; 
 	overflow: hidden;
+}
+
+.recentItems
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.recentItem
+{
+	flex: 1 0 40%;
+	height: 140px;
+	margin:0 5px; 
 }
 
 .Catagories

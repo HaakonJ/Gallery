@@ -19,7 +19,7 @@ nav {
 	100%{transform: translateX(0);opacity:1;}
 }
 
-.SiteDescription {
+.SiteDescription, .MAD, .OtherArt {
 	animation:SDMove .75s ease-in;
 }
 
