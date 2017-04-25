@@ -20,6 +20,11 @@ header h1
   	background: linear-gradient(to bottom right, #0e0e0e, #484848); /* Standard syntax */
 }
 
+	header span
+	{
+		display: none;
+	}
+
 .pageHead
 {
 	font-family: 'orbitron', Sans-Serif;
@@ -483,6 +488,11 @@ div.panel2.show {
 	header{
 		font-size: 9px;
 		width: 100%;
+	}
+	
+		header span
+	{
+		display: block;
 	}
 	
 	main{
