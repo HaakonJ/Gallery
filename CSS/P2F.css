@@ -592,6 +592,12 @@ div.panel2.show {
 	}
 	
 }
+
+@media(max-width: 480px) {
+	.recentItems{
+		overflow-y: scroll;
+	}
+}
 /*Contact Page*/
 .ContactA
 {
