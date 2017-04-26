@@ -490,6 +490,8 @@ div.panel2.show {
 
 .GA1, .GA2, .GA3
 {
+	height: 1000px;
+	overflow-y: scroll;
 	margin: 0 2px;
 	flex: 1 0 32%;
 	justify-content: space-between;
